@@ -14,6 +14,9 @@ $("#calcular").click(function() {
         case "*":
             resultado = numA * numB;
             break;
+        case "/":
+            resultado = numA / numB;
+            break;
     }
 
     $("#resultado").html(resultado);
